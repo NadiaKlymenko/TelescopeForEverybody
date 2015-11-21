@@ -1,0 +1,192 @@
+body
+{
+	background-image:url('carbon_fibre.png');
+}
+
+header
+{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:20px;
+	height: 200px;
+
+}
+
+#emblem
+{
+	float: left;
+	
+}
+
+#emblem img
+{
+	width:150px;
+	height: 150px;
+}
+
+#title 
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: serif;
+	
+}
+
+
+#nav{
+	float:left;
+	width:95%;
+	list-style:none;
+	margin-bottom:10px;
+	position: relative;
+	top:-70px;
+	right: -100px;
+}
+
+#nav li{
+	float:left;
+	width: 18%;
+	text-align: center;
+	position:relative;
+	display:block;
+}
+#nav li a{
+	display:block;
+	padding: 2px 10px;
+	color:#fff;
+	height: 30px;
+	background:#333;
+	text-decoration:none;
+}
+#nav li a:hover{
+	color:#fff;
+	background:#6b0c36;
+	text-decoration:none;
+}
+#nav ul{ /* ВЫПАДАЮЩИЕ ПУНКТЫ */
+	list-style:none;
+	position:absolute;
+	display: none;
+	z-index: 10000;
+}
+#nav ul li{
+	padding-top:1px; 
+	float:none;
+	width: 150px;
+}
+#nav ul a{
+	white-space:nowrap; 
+	display:block;
+	text-decoration: none;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	display: block;
+}
+#nav li:hover a{ 
+	background:#6b0c36;
+	
+}
+#nav li:hover ul li a:hover{ 
+	background:#333;
+}
+
+   
+#tools{
+	float:right;
+	
+	list-style:none;
+	margin-bottom:10px;
+	position: relative;
+
+	top:-70px;
+	}
+
+#tools li{
+	float:left;
+	width: 150px;
+	text-align: center;
+	position:relative;
+	display:block;
+}
+#tools li a{
+	display:block;
+	padding: 2px 10px;
+	color:#fff;
+	height: 30px;
+
+	background:#333;
+	text-decoration:none;
+}
+#tools li a:hover{
+	color:#fff;
+	background:#6b0c36;
+	text-decoration:none;
+}
+        
+        
+        #curr
+        {
+            float: right;
+            position: relative;
+            top:-50px;
+            right: -30px;
+            
+
+        }
+
+        #curr select
+        {
+          height: 30px;
+          text-align: center;
+        }
+
+        #curr select option
+        {
+        	text-align: center;
+
+        }
+
+    #slider
+    {
+    	position: relative;
+    	margin-left: 225px;
+    	margin-right: 100px;
+    	height: 471px;
+    }
+
+    #content
+    {
+    	background-image:url('dimension.png');
+    	margin-left: 225px;
+    	margin-right: 200px;
+    	width:905px;
+    	margin-top: 20px;
+    	text-align: center;
+    }
+
+    .blok 
+	{
+		background-image:url('dimension.png');
+	  float: left; 
+	  width: 25%; 
+	  height: 250px;
+	  margin: 10px; 
+	   padding: 3%;
+	  
+	}
+
+	.blok img {
+	  height: 150px;
+	 width: 150px;
+	}
+
+	.blok a
+	{
+		text-decoration: none;
+		color: #000;
+	}
+
+	footer
+	{
+		clear: left;
+	}
